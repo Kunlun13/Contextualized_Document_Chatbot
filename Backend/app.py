@@ -4,8 +4,10 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import requests
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # ==========================
 # Configuration
