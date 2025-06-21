@@ -12,7 +12,7 @@ CORS(app)
 # ==========================
 # Configuration
 # ==========================
-PDF_PATH = "mergedpdf.pdf"  # already available in your backend
+PDF_PATH = "Final UG Ordinance 05 Sept 2024 (1).pdf"  # already available in your backend
 API_KEY = "AIzaSyCjY69_DSYBTdAgRSgFKV7tu49s9331NJQ"
 MODEL_NAME = "all-MiniLM-L6-v2"
 CHUNK_SIZE = 500
