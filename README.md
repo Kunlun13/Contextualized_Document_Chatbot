@@ -27,8 +27,8 @@ This is an AI-powered fullstack web app built to help students and faculty of **
 ## 🙋‍♂️ Author
 Made with ❤️ by:
 - Kunal Sharma
-- Laya Lodha
 - Hardik Agarwal
+- Laya Lodha
 - Ajit Singh 
 
 ---
