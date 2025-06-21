@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 from flask_cors import CORS
 
-app = Flask(__name__, , static_folder="../frontend/dist", static_url_path="/")
+app = Flask(__name__, static_folder="../frontend/dist", static_url_path="/")
 CORS(app)
 
 # ==========================
@@ -126,4 +126,7 @@ def ask_question():
 # Run the Flask App
 # ==========================
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))  # Use Render's dynamic port or fallback locally
+    app.run(debug=False, host="0.0.0.0", port=port)
+
