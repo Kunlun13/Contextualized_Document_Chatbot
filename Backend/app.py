@@ -66,7 +66,7 @@ def generate_answer_with_gemini(query, document_chunks, chunk_embeddings, api_ke
     if not context.strip():
         return "No relevant content found in the document.", ""
     
-    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro-001:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     data = {
         "contents": [
