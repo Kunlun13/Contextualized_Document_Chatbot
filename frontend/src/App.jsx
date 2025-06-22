@@ -28,7 +28,7 @@ function App() {
 
     try {
       // Replace with your actual API endpoint
-      const response = await fetch('http://localhost:5000/ask', {
+      const response = await fetch('/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
